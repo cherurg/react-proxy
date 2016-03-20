@@ -1,5 +1,5 @@
-const x = {};
-const y = { supports: true };
+let x = {};
+let y = { supports: true };
 try {
   x.__proto__ = y;
 } catch (err) {}
